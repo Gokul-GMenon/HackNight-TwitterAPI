@@ -2,7 +2,7 @@
 This is a repo for our project for Saturday Hacknight (14th April) by TinkerHub
 
 ### Welcome to "TWEETSUMM!!" !!
-This is a django based website designed based on the twitter api which has been made to provide a summary of your twitter account statistics. Simply type your twitter username (for eg: @elonmusk) and have a glance at your:
+This is a django based website designed based on the twitter api. The website has been made to provide a summary of your twitter account statistics. Simply type your twitter username (for eg: @elonmusk) and have a glance at your:
   - Latest Tweet
   - Latest tweet which you liked
   - Total tweets in the week and the most active weekday
