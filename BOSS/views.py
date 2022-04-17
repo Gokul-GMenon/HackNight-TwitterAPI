@@ -123,6 +123,7 @@ def core(request):
             cnt = counter(id.name)
             n_liked = liked_tweets(id.user_id)
             dic = latest_fl(id.user_id)
+            acc = -1
 
 
     return render(request, 'BOSS/index.html', {'state': state, 'form': form, 'lttx': lt['text'], 'ltt': lt['time'], 'ltd':lt['date'], 'lk': lk, 'sum': cnt['sum'], 'day': cnt['day'], 'liked': n_liked, 'nm_follower': dic['follower']['name'],'nm_following': dic['following']['name'], 'user_follower': dic['follower']['user'], 'user_following': dic['following']['user']})
